@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: 1200px;
+}
+
+h2,
+h4,
+h5 {
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  height: 69px;
+  width: 1200px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  background: black;
+  margin-top: 0;
+  opacity: 0.9;
+  overflow: scroll;
+}
+
+.logo img {
+  height: 50px;
+  position: relative;
+  margin: 10px 10px;
+  float: left;
+}
+nav {
+  float: right;
+  position: relative;
+}
+nav span {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 20px 10px;
+}
+
+/* First Section : Our Mission */
+.our {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: center;
+  margin-top: 15px;
+}
+.our span {
+  display: block;
+  background-color: black;
+}
+
+
+/* Second Section : Featured Teas */
+.tea {
+  width: 1000px;
+  margin-left: 100px
+}
+
+.month {
+  display: block;
+  background-color: black;
+  align-self: center;
+}
+.type {
+  width: 1000px;
+  height: 600px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+.artisan img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px;
+}
+
+.caption {
+  text-align: center;
+}
+/* Third section: Location */
+.us {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.where {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loc {
+display: inline-block;
+height: 270px;
+width: 300px;
+background-color: black;
+align-content:space-between;
+margin-right: 40px;
+opacity: 1;
+}
+
+.loc h3,
+p {
+  text-align: center;
+}
+
+.loc p {
+  font-size: 20px;
+}
+/* Fourth section : Contact (already centred above) */
+
+/* Footer */
+
+footer h5 {
+  text-align: left;
+  margin-left: 20px;
+}
